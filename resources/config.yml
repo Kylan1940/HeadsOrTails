@@ -1,0 +1,71 @@
+# ===========================================================================
+# ╭╮╱╭╮╱╱╱╱╱╱╱╭╮╱╱╱╭━━━╮╱╱╭━━━━╮╱╱╭╮
+# ┃┃╱┃┃╱╱╱╱╱╱╱┃┃╱╱╱┃╭━╮┃╱╱┃╭╮╭╮┃╱╱┃┃
+# ┃╰━╯┣━━┳━━┳━╯┣━━╮┃┃╱┃┣━╮╰╯┃┃┣┻━┳┫┃╭━━╮
+# ┃╭━╮┃┃━┫╭╮┃╭╮┃━━┫┃┃╱┃┃╭╯╱╱┃┃┃╭╮┣┫┃┃━━┫
+# ┃┃╱┃┃┃━┫╭╮┃╰╯┣━━┃┃╰━╯┃┃╱╱╱┃┃┃╭╮┃┃╰╋━━┃
+# ╰╯╱╰┻━━┻╯╰┻━━┻━━╯╰━━━┻╯╱╱╱╰╯╰╯╰┻┻━┻━━╯
+# ===========================================================================
+# Report Plugin: https://github.com/Kylan1940/HeadsOrTails/issues/new
+# ===========================================================================
+# Github: https://github.com/Kylan1940
+# Website: https://web.kylan1940.online
+# ===========================================================================
+
+# HEADS OR TAILS CONFIGURATION
+#
+# HELP:
+# \n for new line
+# § for color and special symbols
+# {choose} for what do you choose
+# {result} for what the result
+# {name} for your username
+
+# Config Version
+# DON'T CHANGE THIS!!! 
+config-version: 1
+
+# Prefix:
+prefix: "§7[§9HeadsOrTails§7] "
+
+# broadcast = all player(s)
+# message = only playerself
+# only work for ingame
+announcement: "message"
+ 
+message:
+    announce:
+      # Only work for ingame
+      ingame:
+        # It will work if you choose "broadcast"
+        broadcast:
+          # If win
+          win: "§a{name} plays Heads Or Tails and chose §1{choose}§a, fortunately the result is §1{result}"
+          # If lose
+          lose: "§c{name} plays Heads Or Tails and chose §a{choose}§c, sadly the result is §a{result}"
+        message:
+          # If win
+          win: "§aYou chose §1{choose} §aand the result is §1{result}§a, you won!"
+          # If lose
+          lose: "§cYou chose §a{choose} §cand the result is §a{result}§c, you lose :("
+      # Only work for console
+      console:
+        # If win
+        win: "§aYou chose §1{choose} §aand the result is §1{result}, §ayou won!"
+        # If lose
+        lose: "§cYou chose §a{choose} §cand the result is §a{result}, §cyou lose :("
+    no-permission:
+      # No permission for /heads or /tails
+      play: "§cYou don't have §aHeads Or Tails Play §cpermission!"
+      # No permission for /headsortails
+      ui: "You don't have §aHeads Or Tails UI §cpermission!"
+    console:
+      # /headsortails only for ingame
+      no-ui-support: "§cSorry, console only run /heads or /tails, /headsortails is only ingame!"
+  
+# UI
+ui:
+  title: "§eHeadsOrTails"
+  button:
+    heads: "§eHeads"
+    tails: "§1Tails"

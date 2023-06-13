@@ -1,0 +1,24 @@
+name: HeadsOrTails
+version: 1.0.0
+main: Kylan1940\HeadsOrTails\Main
+api: 5.0.0
+author: Kylan1940
+
+commands: 
+   heads: 
+     description: "Pick Heads" 
+     permission: "headsortails.command"
+   tails:
+     description: "Pick Tails"
+     permission: "headsortails.command"
+   headsortails:
+     description: "Heads Or Tails UI"
+     permission: "headsortails.ui"
+
+permissions:
+  headsortails.command:
+    description: "Permission for Heads Or Tails Command"
+    default: true
+  headsortails.ui:
+    description: "Permission for Heads Or Tails UI Command"
+    default: true
