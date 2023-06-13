@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Kylan1940/HeadsOrTails
+build-by-default: true
+branches:
+- main
+projects:
+  HeadsOrTails:
+    path: ""
+...
