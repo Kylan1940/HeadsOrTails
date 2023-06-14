@@ -5,4 +5,5 @@ branches:
 projects:
   HeadsOrTails:
     path: ""
+    icon: "icon.png"
 ...
