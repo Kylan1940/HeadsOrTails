@@ -9,7 +9,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\console\ConsoleCommandSender;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
-use Kylan1940\HealAndFeed\Form\{Form, SimpleForm};
+use Kylan1940\HeadsOrTails\Form\{Form, SimpleForm};
 
 class Main extends PluginBase implements Listener {
   
