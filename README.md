@@ -19,7 +19,7 @@ Guess! Heads Or Tails? If you are have a question, please make a [issues](https:
 3. Restart the server
 
 # Permission
-| Command | Permission | Default | DESCRIPTION |
+| Command | Permission | Default | Description |
 |---|---|---|---|
 | /heads | headsortails.command | YES | Pick Heads Command |
 | /tails | headsortails.command | YES | Pick Tails Command |
