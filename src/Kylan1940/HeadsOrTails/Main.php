@@ -19,7 +19,6 @@ class Main extends PluginBase implements Listener {
   public function onEnable() : void {
         $this->updateConfig();
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getResource("config.yml");
   }
   
   private function updateConfig(){
