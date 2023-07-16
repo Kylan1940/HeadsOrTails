@@ -3,6 +3,7 @@
 namespace Kylan1940\HeadsOrTails;
 
 use Kylan1940\HeadsOrTails\Form\SimpleForm;
+use Kylan1940\HeadsOrTails\UpdateNotifier\ConfigUpdater;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;
